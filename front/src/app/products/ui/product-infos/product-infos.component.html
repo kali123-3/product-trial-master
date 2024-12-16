@@ -1,0 +1,8 @@
+<div *ngIf="selectedProduct">
+  <img [src]="imageUrl()" *ngIf="selectedProduct().image" class="urlImage" alt="Blob Image" style="max-width: 100%; height: auto;" />
+  <p>Nom Produit : {{selectedProduct().name ? selectedProduct().name : "-"}}</p>
+  <p>Prix Produit : {{selectedProduct().price ? selectedProduct().price : "-"}}</p>
+  <p>Description : {{selectedProduct().description ? selectedProduct().description : "-"}}</p>
+  <p>Catégorie : {{selectedProduct().category ? selectedProduct().category : "-"}}</p>
+</div>
+
