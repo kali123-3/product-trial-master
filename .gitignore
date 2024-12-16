@@ -5,9 +5,16 @@
 /tmp
 /out-tsc
 
+node_modules/*
+back/product-command-service/target
+back/product-command-service/.idea
+
+
 # dependencies
 node_modules/*
-
+front/.angular
+front/dist
+front/node_modules/*
 # IDEs and editors
 /.idea
 
